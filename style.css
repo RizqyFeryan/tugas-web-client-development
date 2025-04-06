@@ -24,21 +24,28 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 /* Check list styling */
 nav ul {
   display: flex;
   gap: 48px;
+  list-style: none;
 }
 
 /* Check list link style */
 nav ul li a {
-
+  text-decoration: none;
+  line-height: 100%;
+  color: #1F1534;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 /* Make text bold on hover */
 nav ul li a:hover {
+  font-weight: 700;
   
 }
 
@@ -53,31 +60,53 @@ main {
 /* Check margin and font styling */
 .text h1 {
   font-family: 'Mulish', sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 150%;
+  text-decoration: uppercase;
 }
 
 /* Check font styling */
 .text h1 span {
+  font-weight: 700;
+  color: #89C5CC;
 }
 
 /* Check font styling */
 .text p {
   font-family: 'Open Sans', sans-serif; 
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  color: #7D7987;
+  margin-top: 16px;
+
 }
 
 /* Check font styling and make sure the button is rounded */
 .text button {
   font-family: 'Open Sans', sans-serif;
+  color: #fff;
   display: flex;
   gap: 8px;
+  padding: 14px 32px;
+  background-color: #69B99D;
+  border-radius: 4px;
+  align-items: center;
+  border: none;
+  margin-top: 48px;
+  cursor: pointer;
 }
 
 /* Handle when user hover on the button */
 .text button:hover {
+  transform: scale(1.05);
 }
 
 /* Check the text styling */
 footer {
   font-family: 'Open Sans', sans-serif; 
+  text-align: center;
 }
 
 /* Check the text styling */
