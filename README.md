@@ -1,6 +1,7 @@
 Update Tampilan Web - Workoutaja
 🔄 Sebelum & Sesudah Update CSS
 Before:
+![Gambar sebelum CSS diubah](./images/before.png)
 
 Tampilan masih sangat sederhana.
 Gambar tidak muncul.
@@ -8,16 +9,13 @@ Posisi teks dan button belum rapi.
 Navigasi masih tampil seperti list biasa.
 
 After:
+![Gambar setelah CSS diubah](./images/after.png)
 
 Tampilan lebih clean dan modern.
 Layout sudah responsive (pakai flexbox).
 Teks dan tombol sudah tertata rapi.
 Gambar ilustrasi sudah muncul dan sesuai tema workout.
 Warna dan font disesuaikan biar lebih estetik.
-
-Before	After
-
-
 
 ✍️ Perubahan yang Dilakukan
 Styling ulang header dan navbar.
